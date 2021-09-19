@@ -40,6 +40,15 @@ const ListSessions = () => {
   return (
     <Fragment>
       {" "}
+        <section className = "days">
+            <p className = "day">Mon</p>
+            <p className = "day">Tue</p>
+            <p className = "day">Wed</p>
+            <p className = "day">Thu</p>
+            <p className = "day">Fri</p>
+            <p className = "day">Sat</p>
+            <p className = "day">Sun</p>
+        </section>
       <table className = "list">
         <tbody className = "containers">
           {sessions.map(session => (
